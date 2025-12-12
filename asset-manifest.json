@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PortfolioVSCode/static/css/main.5ba5ebf4.css",
-    "main.js": "/PortfolioVSCode/static/js/main.a1055ee9.js",
-    "index.html": "/PortfolioVSCode/index.html",
-    "main.5ba5ebf4.css.map": "/PortfolioVSCode/static/css/main.5ba5ebf4.css.map",
-    "main.a1055ee9.js.map": "/PortfolioVSCode/static/js/main.a1055ee9.js.map"
+    "main.css": "/Portfoliov2/static/css/main.4c7695c4.css",
+    "main.js": "/Portfoliov2/static/js/main.8651430a.js",
+    "index.html": "/Portfoliov2/index.html",
+    "main.4c7695c4.css.map": "/Portfoliov2/static/css/main.4c7695c4.css.map",
+    "main.8651430a.js.map": "/Portfoliov2/static/js/main.8651430a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ba5ebf4.css",
-    "static/js/main.a1055ee9.js"
+    "static/css/main.4c7695c4.css",
+    "static/js/main.8651430a.js"
   ]
 }
