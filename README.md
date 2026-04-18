@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# Portfolio v2 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio interactif et moderne showcasant mes projets et expériences en Data Science, Machine Learning et développement.
 
-## Available Scripts
+## 📋 À propos
 
-In the project directory, you can run:
+Ce portfolio présente mes compétences et réalisations dans les domaines suivants :
+- **Data Science & BI** : Dashboards dynamiques, analyses prédictives
+- **Machine Learning** : Plateforme AutoML, optimisation de modèles
+- **Computer Vision** : Détection d'objets 3D, interaction main virtuelle
+- **Développement Web** : Interface réactive et interactive
 
-### `npm start`
+## 🛠️ Stack Technique
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- **React 19** - Framework UI moderne
+- **Tailwind CSS** - Styling utilitaire
+- **PostCSS** - Traitement CSS avancé
+- **Lucide Icons** - Librairie d'icônes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Libraires
+- **Three.js** - Visualisation 3D
+- **MediaPipe** - Détection en temps réel
+- **Gemini API** - IA générative
 
-### `npm test`
+### Tests
+- **Testing Library** - Tests React et DOM
+- **Jest** - Framework de test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Structure du Projet
 
-### `npm run build`
+```
+src/
+├── App.jsx              # Composant principal du portfolio
+├── index.js             # Point d'entrée React
+├── index.css            # Styles globaux
+├── reportWebVitals.js   # Métriques de performance
+└── setupTests.js        # Configuration des tests
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+public/
+├── index.html           # Template HTML
+├── manifest.json        # Configuration PWA
+└── robots.txt          # Configuration SEO
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Démarrage Rapide
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prérequis
+- Node.js 16+ 
+- npm ou yarn
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Cloner le repository
+git clone [repository-url]
+cd Portfoliov2
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Installer les dépendances
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Commandes Disponibles
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Démarrer le serveur de développement
+npm start
+# Ouvre http://localhost:3000
 
-## Learn More
+# Construire pour la production
+npm run build
+# Crée un dossier 'build' optimisé
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Lancer les tests
+npm test
+# Lance le mode watch interactif
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Ejecter la configuration (irréversible)
+npm run eject
+```
 
-### Code Splitting
+## 💼 Projets Présentés
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 1. Dashboard BI Dynamique
+- **Technologies** : Python, Power BI, DAX, SQL, Excel
+- **Caractéristiques** :
+  - Carte interactive en temps réel
+  - Dashboard KPI avec alertes automatiques
+  - Analyses prédictives intégrées
+  - Fusion de multiples sources de données
 
-### Analyzing the Bundle Size
+### 2. Machine Learning Platform
+- **Statut** : En développement
+- **Fonctionnalités prévues** :
+  - AutoML Engine avec optimisation automatique
+  - Feature Store centralisé
+  - Model Registry avec versioning
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3. Détection d'Objets 3D
+- **Technologies** : MediaPipe, Gemini API, Three.js, React
+- **Caractéristiques** :
+  - Détection main en temps réel (60 FPS)
+  - Interaction avec objets virtuels
+  - Génération d'objets 3D basée sur IA
+  - Détection automatique d'objets physiques
 
-### Making a Progressive Web App
+## 💼 Expérience
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Ingénieur Data Science R&D (Stage)**
+- **Entreprise** : IDEMIA
+- **Période** : Mai 2025 - Juin 2025 (2 mois)
+- **Domaines** : Python, Streamlit, Computer Vision, Machine Learning, Biométrie
 
-### Advanced Configuration
+## 📱 Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Le portfolio est entièrement responsive et s'adapte à tous les appareils :
+- ✅ Desktop
+- ✅ Tablette
+- ✅ Mobile
 
-### Deployment
+## 🔧 Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Tailwind CSS
+Configuration personnalisée dans `tailwind.config.js`
 
-### `npm run build` fails to minify
+### PostCSS
+Pipeline CSS moderne avec autoprefixer dans `postcss.config.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📈 Performance
+
+- Build optimisé avec React en production
+- Minification automatique des assets
+- Web Vitals pour le monitoring de performance
+
+## 📝 Licence
+
+Ce projet est personnel et à usage de portfolio.
+
+## 📞 Contact
+
+Pour plus d'informations, consultez le portfolio en ligne ou via les liens de contact disponibles dans l'application.
